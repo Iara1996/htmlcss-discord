@@ -17,6 +17,7 @@ body
     --black: #23262bFF;
     --light: #dadada;
     --white: #ffffff;
+    --dark-grey: rgb(57, 57, 57);
 }
 
 /* #endregion common*/
@@ -45,6 +46,10 @@ body
 .d-flex
 {
     display: flex;
+}
+.justify_content_between
+{
+    justify-content: space-between;
 }
 
 .col-2
@@ -117,7 +122,7 @@ section
 section h3
 {
     font-size: 2rem;
-    margin: 1.75rem 0;
+    margin: 2rem 0;
 }
 
 section p
@@ -125,6 +130,12 @@ section p
     margin: 2rem 0;
 
 }
+
+a
+{
+    text-decoration: none;
+}
+
 /* #endregion utility */
 
 /* #region header */
@@ -249,6 +260,40 @@ section.tech
 /* #endregion main */
 
 /* #region footer */
+
+footer
+{
+    color: var(--white);
+    background-color: var(--dark-grey);
+    padding: 3rem 0;
+}
+
+footer h5, footer h2
+{
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+footer .language
+{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 1rem 0;
+}
+
+footer ul
+{
+    list-style: none;
+
+    & a
+    {
+        color: var(--white);
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+}
 .line
 {
     color: var(--accent);
@@ -262,9 +307,4 @@ footer [class^='col-']
     padding: 2rem 0;
 }
 
-
-.enroll
-{
-    text-align: end;
-}
 /* #endregion footer */
