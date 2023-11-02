@@ -219,6 +219,20 @@ section.tech
     text-align: center;
 }
 
+.wave
+{
+    color: var(--light);
+    margin-bottom: -0.25rem;
+}
+
+.wave_invers
+{
+    color: var(--light);
+    margin-top: -0.25rem;
+    transform: rotate(180deg);
+}
+
+
 /* #endregion main */
 
 /* #region footer */
