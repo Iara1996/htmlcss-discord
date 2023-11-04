@@ -138,6 +138,23 @@ a
 
 /* #endregion utility */
 
+/* #region debug */
+.debug .container
+{
+    background-color: rgb(232, 192, 61);
+    height: 400px;
+}
+.debug [class^="col-"]
+{
+    background-color: rgb(196, 36, 196);
+}
+
+.debug footer [class^="col-"]
+{
+    height: 300px;
+}
+/* #endregion debug */
+
 /* #region header */
 
 #site_header
@@ -171,23 +188,6 @@ a
     text-align: end;
 }
 /* #endregion header*/
-
-/* #region debug */
-.debug .container
-{
-    background-color: rgb(232, 192, 61);
-    height: 400px;
-}
-.debug [class^="col-"]
-{
-    background-color: rgb(196, 36, 196);
-}
-
-.debug footer [class^="col-"]
-{
-    height: 300px;
-}
-/* #endregion debug */
 
 /* #region main */
 #site_main
@@ -292,8 +292,8 @@ footer ul
         font-size: 14px;
         line-height: 1.5rem;
     }
-
 }
+    
 .line
 {
     color: var(--accent);
