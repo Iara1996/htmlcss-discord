@@ -264,7 +264,7 @@ section.tech
 footer
 {
     color: var(--white);
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     padding: 3rem 0;
 }
 
@@ -299,7 +299,7 @@ footer ul
     color: var(--accent);
     background-color: var(--accent);
     border: 1px solid;
-    margin: 0 -1rem;
+    margin: 1rem -1rem;
 }
 
 footer [class^='col-']
